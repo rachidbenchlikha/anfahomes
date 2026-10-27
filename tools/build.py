@@ -12,7 +12,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://rkconciergerie.com"
+SITE = "https://anfahomes.com"
 SLUGS = {
     "en": {"stay": "stays", "owners": "owners", "furniture": "furnish", "about": "about", "faq": "faq", "contact": "contact"},
     "fr": {"stay": "sejours", "owners": "proprietaires", "furniture": "ameublement", "about": "a-propos", "faq": "faq", "contact": "contact"},
